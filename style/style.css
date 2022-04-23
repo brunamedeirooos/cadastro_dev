@@ -1,120 +1,105 @@
-
-
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #140334;
-    color: #fff;
-    font-family: saira;
+body {
+  background-color: #140334;
+  color: #fff;
+  font-family: saira;
 }
 
-span{
-    padding: 5px;
-    text-align: center;
-    
+span {
+  padding: 5px;
+  text-align: center;
 }
 
-.titulo1{
-    background-color:#030328;
-    font-size: 30px;
-    font-weight: 800;
-    padding: 10px;
+.titulo1 {
+  background-color: #030328;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
 }
 
-.fa-solid fa-desktop{
-    color: #fff;
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.212);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.299);
 }
 
-form{
-    position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(255,255,255,0.12);
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.299);
+.label-float {
+  position: relative;
+  padding-top: 13px;
 }
 
-.label-float{
-    position: relative;
-    padding-top: 13px;
+.inputUser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
-
-
-.inputUser{
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
-    outline: none;
-    color: white;
-    font-size: 15px;
-    width: 100%;
-    letter-spacing: 2px;
-    cursor: pointer;
-    
-
+.titulo3 {
+  font-size: 15px;
+  margin: 10px;
+  margin-top: 10px;
 }
 
-.titulo3{
-    font-size: 15px;
-    margin: 10px;
-    margin-top: 10px;
-    
+.radio-confirme {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 10px;
 }
 
-.radio-confirme{
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px;
-    margin-top: 10px;
+#senioridade {
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+  margin: 10px;
+  border: none;
+
+  font-size: 16px;
 }
 
-#senioridade{
-    display: flex;
-    text-align: center;
-    margin-top: 10px;
-    margin: 10px;
-    border: none;
-
-    font-size: 16px;
+label {
+  margin: 10px;
 }
 
-label{
-    margin: 10px;
+.titulo4 {
+  font-size: 15px;
+  margin: 10px;
+  margin-top: 10px;
 }
 
-.titulo4{
-    font-size: 15px;
-    margin: 10px;
-    margin-top: 10px;
+.tecnologia {
+  font-size: 15px;
 }
 
-.tecnologia{
-    font-size: 15px;
-    
+button {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+  padding: 10px;
 }
 
-button{
-    
-    margin-top: 15px;
-    width: 100%;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #fff;
-    transition: all 0.4s ease-in-out ;
-    padding: 10px;
-    
-}
-
-button:hover{
-    background-color:#1403347b ;
+button:hover {
+  background-color: #1403347b;
 }
